@@ -116,7 +116,14 @@ p {
 }
 
 .menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 7px 0px rgba(57, 56, 61, 0.205);
     background: white;
+    z-index: 999;
+    transition: top 0.5s;
 }
 
 .menu.expanded {
@@ -144,14 +151,8 @@ p {
 }
 
 .navbar-fixed {
-    position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    box-shadow: 0px 2px 7px 0px rgba(57, 56, 61, 0.205);
-    background: white;
-    z-index: 999;
-    transition: all 0.5s ease;
+    transition: top 0.5s;
 }
 
 
@@ -211,7 +212,7 @@ p {
     left: 0;
     z-index: -1;
     background-size: cover;
-    background-image: url("../assets/banner.png");
+    background-image: url("../assets/JustinWebsiteBannerFinal\(SmallerFileSize\).jpeg");
     opacity: 0.5;
 }
 

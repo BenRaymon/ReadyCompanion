@@ -1,11 +1,13 @@
 // Fixed Navbar
 let navHeight = $('.menu').height();
+let prevScrollY = window.height;
 window.onscroll = function () {
-    if (window.scrollY > 0) {
+    if (window.scrollY < prevScrollY) {
         $(".menu").addClass("navbar-fixed");
     } else {
         $(".menu").removeClass("navbar-fixed");
     }
+    prevScrollY = window.scrollY;
 };
 
 // Add shadow under expanded navbar
