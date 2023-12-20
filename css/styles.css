@@ -14,12 +14,12 @@ body {
 
 /* CSS Variables */
 :root {
-    --primary-color: #241657;
-    --primary-color2: #6C89C0;
+    --primary-color: #536094;
+    --primary-color2: #afc6f0;
     --title-color: #141313;
     --text-color: #777777;
     --border-color: #201f1f17;
-    --gradient-color: linear-gradient(90deg, #241657 0%, #6C89C0 100%);
+    --gradient-color: linear-gradient(90deg, #536094 0%, #afc6f0 100%);
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
 
@@ -247,11 +247,11 @@ p {
 .section-blue {
     padding-top: 70px;
     padding-bottom: 75px;
-    background-color: #E2E7F2;
+    background-color: #536094;
 }
 
 .section-blue h1 {
-    color: var(--title-color);
+    color: #fff;
     text-align: center;
 }
 
@@ -259,7 +259,7 @@ p {
 .section-blue-gradient {
     padding-top: 70px;
     padding-bottom: 75px;
-    background-color: #E2E7F2;
+    background-color: #536094;
     background: var(--gradient-color);
 }
 
@@ -305,7 +305,7 @@ p {
 }
 
 .team-position {
-    color: var(--primary-color2)
+    color: var(--primary-color)
 }
 
 
