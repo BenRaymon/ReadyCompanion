@@ -94,16 +94,16 @@ p {
 }
 
 .outline-btn {
-    color: white;
+    color: #fdfdfd;
     border-radius: 6px;
-    border-color: white;
-    box-shadow: 0 0 0 1px #fff;
+    border-color: #fdfdfd;
+    box-shadow: 0 0 0 1px #fdfdfd;
     transition: box-shadow 0.2s, font-weight 0.2s;
 }
 
 .outline-btn:hover {
-    box-shadow: 0 0 0 3px #fff;
-    color: white;
+    box-shadow: 0 0 0 3px #fdfdfd;
+    color: #fdfdfd;
     font-weight: 600;
 }
 
@@ -121,7 +121,7 @@ p {
     left: 0;
     width: 100%;
     box-shadow: 0px 2px 7px 0px rgba(57, 56, 61, 0.205);
-    background: white;
+    background: #fdfdfd;
     z-index: 999;
     transition: top 0.5s;
 }
@@ -200,7 +200,7 @@ p {
 .hero-area {
     position: relative;
     z-index: 1;
-    background-color: black;
+    margin-top: 80px;
 }
 
 .hero-area::after {
@@ -212,8 +212,11 @@ p {
     left: 0;
     z-index: -1;
     background-size: cover;
-    background-image: url("../assets/JustinWebsiteBannerFinal\(SmallerFileSize\).jpeg");
-    opacity: 0.5;
+    background-position-x: center;
+    background-position-y: top;
+
+    background-image: url("../assets/JustinWebsiteBannerFinal.jpeg");
+    box-shadow: 0px 2px 7px 0px rgba(57, 56, 61, 0.205);
 }
 
 .hero-area .hero-content {
@@ -223,11 +226,11 @@ p {
 .hero-area .hero-content h1 {
     font-size: 55px;
     line-height: 65px;
-    color: #fff
+    color: #fdfdfd
 }
 
 .hero-area .hero-content h2 {
-    color: #fff
+    color: #fdfdfd
 }
 
 
@@ -241,7 +244,7 @@ p {
 .section-grey {
     padding-top: 90px;
     padding-bottom: 110px;
-    background-color: #fff;
+    background-color: #fdfdfd;
 }
 
 .section-blue {
@@ -251,7 +254,7 @@ p {
 }
 
 .section-blue h1 {
-    color: #fff;
+    color: #fdfdfd;
     text-align: center;
 }
 
@@ -264,7 +267,7 @@ p {
 }
 
 .section-blue-gradient h1 {
-    color: #fff;
+    color: #fdfdfd;
     text-align: center;
 }
 
@@ -290,7 +293,7 @@ p {
 .community-img {
     width: 100%;
     border: 1px solid rgba(36, 22, 87, 1);
-    background-color: #fff;
+    background-color: #fdfdfd;
     border-radius: 5px;
     padding: 1rem;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15000000596046448)
@@ -318,11 +321,11 @@ p {
 .get-in-touch h1 {
     font-size: 3.5rem;
     text-align: left;
-    color: #fff;
+    color: #fdfdfd;
 }
 
 .get-in-touch h4 {
-    color: #fff;
+    color: #fdfdfd;
     font-weight: 300;
 }
 
