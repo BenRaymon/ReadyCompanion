@@ -107,6 +107,25 @@ p {
     font-weight: 600;
 }
 
+.primary-btn {
+    display: inline-block;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    border: 0.25rem solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    font-family: var(--montserrat);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    transition: all 0.4s ease;
+}
+
 
 
 /** NAVBAR **/
@@ -203,36 +222,11 @@ p {
     margin-top: 80px;
 }
 
-.hero-area::after {
-    content: '';
-    position: absolute;
+.hero-area .hero-content img {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-
-    background-image: url("../assets/JustinWebsiteBannerFinal.jpeg");
     box-shadow: 0px 2px 7px 0px rgba(57, 56, 61, 0.205);
 }
-
-.hero-area .hero-content {
-    padding: 305px 0 175px;
-}
-
-.hero-area .hero-content h1 {
-    font-size: 55px;
-    line-height: 65px;
-    color: #fdfdfd
-}
-
-.hero-area .hero-content h2 {
-    color: #fdfdfd
-}
-
 
 
 /* SECTIONS */
@@ -341,4 +335,45 @@ p {
     border-bottom-right-radius: 10px;
     margin-left: 0.75rem;
     max-height: inherit;
+}
+
+
+/** CONACT **/
+/* .contact {
+    background: #fafafa;
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+} */
+
+.contact p {
+    font-size: 1.15rem;
+    line-height: 1.8rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact .heading {
+    color: #888;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact label {
+    color: #7C869A;
+}
+
+.contact-form {
+    padding: 40px;
+    background: #fff;
+    /* -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); */
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color2);
+    box-shadow: 0 0 0 0.25rem rgba(83, 96, 148, .25)
 }

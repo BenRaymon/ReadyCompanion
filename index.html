@@ -63,15 +63,8 @@
 
 
     <section id="home" class="hero-area ">
-        <div class="container">
-            <div class="row">
-                <div class="mx-auto col-lg-9 col-xl-9 col-md-10">
-                    <div class="text-center hero-content">
-                        <!-- <h1 class="mb-30">Welcome to Ready Companion</h1> -->
-                        <!-- <h2> Are You Ready? </h2> -->
-                    </div>
-                </div>
-            </div>
+        <div class="hero-content">
+            <img src="./assets/JustinWebsiteBannerFinal.jpeg">
         </div>
     </section>
 
@@ -156,13 +149,13 @@
         </div>
     </section>
 
-    <!-- <section class="section-blue-gradient text-center">
+    <section class="section-blue-gradient text-center">
         <h1 class="mb-3"> Ready Up Your Community! </h1>
-        <a class="btn outline-btn" href="#">Book a demo</a>
-    </section> -->
+        <a class="btn outline-btn" href="#contact">Book a demo</a>
+    </section>
 
 
-    <a id="contact"></a>
+    <!-- <a id="contact"></a>
     <section class="pb-5 mb-5">
         <div class="container">
             <div class="row get-in-touch">
@@ -179,6 +172,55 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+
+    <a id="contact"></a>
+    <section class="section-grey contact">
+        <div class="container">
+            <h1 class="section-heading text-center mb-5">Contact</h1>
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-md-10">
+                    <div class="contact-form mt-2">
+                        <h3 class="heading">Let's Connect!</h3>
+                        <form id="contactform">
+                            <div class="form-group mb-3">
+                                <label for="user_name">Name</label>
+                                <input type="name" class="form-control" id="user_name" name="user_name" placeholder="">
+                                <div class="invalid-feedback">
+                                    Please enter your name.
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="user_email">Email address</label>
+                                <input type="email" class="form-control" id="user_email" name="user_email"
+                                    placeholder="">
+                                <div class="invalid-feedback">
+                                    Please enter a valid email.
+                                </div>
+                            </div>
+
+
+                            <div class="form-group mb-5">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                                <div class="invalid-feedback">
+                                    Message cannot be blank.
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <a class="primary-btn" id="submit-message">Send Message<i
+                                        class="fa-solid fa-paper-plane mx-1"></i></a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section class="section-blue pb-4 pt-4">
@@ -191,6 +233,10 @@
 
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.min.js"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
 
     <script type="module" src='./js/main.js'></script>
 
