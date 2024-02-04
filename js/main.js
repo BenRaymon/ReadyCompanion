@@ -29,12 +29,12 @@ $('.nav-link').on('click', (event) => {
 
 /* Send Email - Contact Form */
 // TODO - set emailjs key
-// emailjs.init('');
+emailjs.init('96I6oe9EPq39uF1ED');
 
 async function sendEmail(formElement) {
     // TODO - set emailjs service and template keys
-    // let res = await emailjs.sendForm('service_KEY', 'template_KEY', formElement);
-    // console.log(res);
+    let res = await emailjs.sendForm('service_83z8ebl', 'template_st9qbul', formElement);
+    console.log(res);
 }
 
 async function handleFormSubmit(event) {
