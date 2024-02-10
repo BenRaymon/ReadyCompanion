@@ -285,12 +285,14 @@ p {
 }
 
 .community-img {
-    width: 100%;
-    border: 1px solid rgba(36, 22, 87, 1);
-    background-color: #fdfdfd;
-    border-radius: 5px;
+    width: auto;
+    max-width: 100%;
+    max-height: 250px;
+    /* border: 1px solid rgba(36, 22, 87, 1); */
+    /* background-color: #fdfdfd; */
+    /* border-radius: 5px; */
     padding: 1rem;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15000000596046448)
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15000000596046448) */
 }
 
 .team-img {
